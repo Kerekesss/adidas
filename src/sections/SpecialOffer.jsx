@@ -5,17 +5,12 @@ import Button from "../components/Button";
 const SpecialOffer = () => {
   return (
     <section className="flex  justify-wrap items-center max-xl:flex-col-reverse gap-10 max-container">
-      <div className=" flex-1 relative">
-        <img
-          src={sale}
-          width={200}
-          className="absolute left-[300px]  bottom-0"
-        />
+      <div className=" flex-1 ">
         <img
           src={offer}
           width={450}
           height={450}
-          className="object-contain rounded-full bg-blue-100 dark:bg-gray-900 shadow-2xl dark:shadow-white shadow-blue-sea  "
+          className="object-contain rounded-full bg-card bg-cover bg-center overflow-visible dark:bg-darkcard shadow-2xl dark:shadow-white shadow-blue-sea  "
         />
       </div>
       <div className=" flex-1  flex-col ">
