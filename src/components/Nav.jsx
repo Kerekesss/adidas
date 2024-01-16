@@ -52,11 +52,11 @@ const Nav = () => {
             onClick={handleClick}
             className="lg:hidden text-2xl cursor-pointer z-30 dark:text-white"
           >
-            {click ? <FaBars /> : <FaTimes />}
+            {click ? <FaTimes /> : <FaBars />}
           </div>
           <ul
             className={
-              !click
+              click
                 ? "absolute w-full h-screen bg-white top-0 left-0 flex flex-col justify-center items-center gap-16 lg:hidden dark:bg-black  bg-opacity-95 dark:bg-opacity-95"
                 : "hidden"
             }
